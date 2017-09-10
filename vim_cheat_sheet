@@ -1,0 +1,80 @@
+             MODES 
+
+normal mode
+insert mode 
+... (many, many more) 
+
+  i, I, a, A        - normal -> insert 
+  ESC, C-[          - insert -> normal
+
+
+          MOVING AROUND
+
+
+          ^          k
+        <   >      h   l
+          v          j
+
+
+
+        BASIC JUMP MOVEMENTS
+
+  h, l               - jump by a character
+  w, W, e, E         - jump by a word
+  b, B               - jump by a word (backwards)
+  0, $               - jump to the first / last character in line
+  ^, g_              - jump to the first / last (non-blank) character in line
+  gg, G              - jump to first / last line
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac diam
+sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id
+orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac
+diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum
+id orci porta dapibus.
+
+
+          CURSOR POSITION
+
+  H, M, L            - top / middle / down of the screen
+  zz                 - refocus to the middle 
+
+
+          SEARCH JUMPS
+
+  f, F                - find character (inclusive)
+  t, T                - find character (exclusive)
+  /                   - text search
+  n, N                - next / previous occurrence
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac diam
+sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id
+orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac
+diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum
+id orci porta dapibus.
+
+
+          EDITING STUFF
+
+  d                   - delete
+  c                   - change
+  y                   - yank (copy)
+  x                   - cut
+  r                   - replace
+  p                   - paste
+
+  .                   - repeat last command
+  u / C-r             - undo / redo
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac diam
+sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id
+orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac
+diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum
+id orci porta dapibus.
+
+
+        SOME ADVANCED STUFF
+
+  C-p                 - auto-complete
+  C-x                 - enter completion mode
+  C-v                 - enter visual block mode
