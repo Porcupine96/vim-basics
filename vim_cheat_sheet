@@ -1,3 +1,10 @@
+          MOVING AROUND
+
+          ^          k
+        <   >      h   l
+          v          j
+
+
              MODES 
 
 normal mode
@@ -6,15 +13,6 @@ insert mode
 
   i, I, a, A        - normal -> insert 
   ESC, C-[          - insert -> normal
-
-
-          MOVING AROUND
-
-
-          ^          k
-        <   >      h   l
-          v          j
-
 
 
         BASIC JUMP MOVEMENTS
@@ -73,8 +71,29 @@ diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum
 id orci porta dapibus.
 
 
+        LESS USEFUL BUT FUN TO KNOW
+
+  C-a, C-x            - increment / decrement
+
+  NUMBER: 123 
+
+
         SOME ADVANCED STUFF
 
-  C-p                 - auto-complete
-  C-x                 - enter completion mode
-  C-v                 - enter visual block mode
+  C-p [I]             - auto-complete
+  C-x [I]             - enter completion mode
+  C-v [N]             - enter visual block mode
+  M {register}        - save bookmark
+  ` {register}        - jump to bookmark
+  ``                  - jump back to the previous cursor position
+  q {register}        - start recording macro
+  q [R]               - stop recording macro
+  @ {register}        - play macro
+
+
+Lorem, ipsum, sit, amet
+sit amet, quam, vehicula, elementum
+orci, porta, dapibus, Nulla, lorem
+diam, sit, amet, quam, vehicula
+
+
