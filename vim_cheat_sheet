@@ -83,7 +83,7 @@ id orci porta dapibus.
   C-p [I]             - auto-complete
   C-x [I]             - enter completion mode
   C-v [N]             - enter visual block mode
-  M {register}        - save bookmark
+  m {register}        - save bookmark
   ` {register}        - jump to bookmark
   ``                  - jump back to the previous cursor position
   q {register}        - start recording macro
